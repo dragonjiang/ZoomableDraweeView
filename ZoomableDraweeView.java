@@ -93,6 +93,7 @@ public class ZoomableDraweeView extends SimpleDraweeView {
             public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
                 if (mCurrentScale > 1f) {
                     mCurrentMatrix.postTranslate(-distanceX, -distanceY);
+                    invalidate();
                     checkBorder();
                 }
                 return true;
