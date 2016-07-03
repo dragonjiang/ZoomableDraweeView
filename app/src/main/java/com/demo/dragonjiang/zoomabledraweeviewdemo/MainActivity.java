@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ZoomableDraweeView zoomableDraweeView = (ZoomableDraweeView) findViewById(R.id.zdv_image);
-        zoomableDraweeView.setImageURI(Uri.parse("http://pic.58pic.com/58pic/17/76/75/65V58PIC3uf_1024.jpg"));
+        zoomableDraweeView.setImageURI(Uri.parse("http://pic.58pic.com/58pic/14/44/71/32X58PICP3h_1024.jpg"));
 
     }
 }
