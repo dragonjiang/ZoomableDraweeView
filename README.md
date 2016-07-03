@@ -14,4 +14,5 @@ fresco可以配合PhotoView实现图片缩放，但是这种方式比较麻烦�
 这里介绍直接使用ScaleGestureDetector进行手势缩放检测的方法。
 这种方法实现起来比较简单。
 
+
 ![](http://i.imgur.com/SWssO7A.gif)
